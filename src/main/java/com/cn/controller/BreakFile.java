@@ -8,7 +8,7 @@ import java.io.*;
 public class BreakFile {
     public static void main(String args[]) {
         try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Administrator/Desktop/日志-备份/error.log.2020-07-18-下午"), "GBK"));
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Administrator/Desktop/日志-备份/error.log"), "GBK"));
             String row;
 
             int rownum = 1;

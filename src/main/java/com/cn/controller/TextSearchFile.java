@@ -67,7 +67,7 @@ public class TextSearchFile {
         return  flag;
     }
     public static void main(String[] args) {
-        List<File> files = searchFiles(new File("D:/text1"), "ZYJ000000143751");
+        List<File> files = searchFiles(new File("D:/text1"), "ZYJ000000583479");
         System.out.println("共找到:" + files.size() + "个文件");
         for (File file : files) {
             System.out.println(file.getAbsolutePath());
